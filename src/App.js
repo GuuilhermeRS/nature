@@ -1,6 +1,7 @@
 import React from 'react';
 
-import GlobalStyles from './assets/styles/global';
+import GlobalStyles, { Container } from './assets/styles/global';
+import { Section } from './components/Section';
 
 import Header from './components/Header';
 
@@ -9,6 +10,9 @@ function App() {
     <>
       <GlobalStyles />
       <Header />
+      <Container>
+        <Section />
+      </Container>
     </>
   );
 }

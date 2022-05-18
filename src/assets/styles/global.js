@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import styled, { createGlobalStyle } from 'styled-components';
 
 export default createGlobalStyle`
   @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&family=Montserrat:wght@400;600;700&display=swap');
@@ -9,4 +9,9 @@ export default createGlobalStyle`
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
   }
+`;
+
+export const Container = styled.div`
+  display: flex;
+  justify-content: center;
 `;
